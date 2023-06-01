@@ -7,4 +7,4 @@ RUN apt-get update &&\
 	cd dockerPruebas && npm i
 EXPOSE 3000
 
-ENTRYPOINT ["node", "dockerPruebas/index.js"]```
+ENTRYPOINT ["node", "dockerPruebas/index.js"]
