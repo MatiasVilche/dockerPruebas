@@ -1,5 +1,6 @@
 ﻿# dockerPruebas
-```FROM debian:latest
+```
+FROM debian:latest
 RUN apt-get update &&\
 	apt-get install -y nodejs npm git &&\
 	apt-get clean &&\
